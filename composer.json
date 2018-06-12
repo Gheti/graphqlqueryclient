@@ -1,5 +1,5 @@
 {
-    "name": "GraphQLQueryClient/PHP",
+    "name": "Gheti/GraphQLQueryClient",
     "description": "Package for making GraphQl requests",
     "authors": [
       {
