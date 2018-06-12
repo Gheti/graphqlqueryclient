@@ -1,19 +1,33 @@
 {
-    "name": "gheti/graph_ql_query_client",
-    "description": "Package for making GraphQl requests",
-    "authors": [
-      {
-        "name": "Getoar Kastrati",
-        "email": "getoarkastrati1@gmail.com"
-      }
-    ],
-    "require": {
-        "php": ">=7.0",
-        "guzzlehttp/guzzle": "^6.3"
-    },
-    "autoload": {
-        "psr-4": {
-            "GraphQLQueryClient\\": "src/"
-        }
+  "name": "gheti/graph_ql_query_client",
+  "description": "Package for making GraphQl requests",
+  "authors": [
+    {
+      "name": "Getoar Kastrati",
+      "email": "getoarkastrati1@gmail.com"
     }
+  ],
+  "repositories": [
+    {
+      "type": "package",
+      "package": {
+        "name": "gheti/graph_ql_query_client",
+        "version": "master",
+        "source": {
+          "url": "https://github.com/Gheti/grapqlqueryclient",
+          "type": "git",
+          "reference": "master"
+        }
+      }
+    }
+  ],
+  "require": {
+    "php": ">=7.0",
+    "guzzlehttp/guzzle": "^6.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "GraphQLQueryClient\\": "src/"
+    }
+  }
 }
