@@ -1,5 +1,5 @@
 {
-    "name": "GraphQLQueryClient",
+    "name": "GraphQLQueryClient/PHP",
     "description": "Package for making GraphQl requests",
     "authors": [
       {
