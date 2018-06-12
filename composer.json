@@ -1,5 +1,5 @@
 {
-    "name": "Gheti/GraphQLQueryClient",
+    "name": "gheti/graph_ql_query_client",
     "description": "Package for making GraphQl requests",
     "authors": [
       {
